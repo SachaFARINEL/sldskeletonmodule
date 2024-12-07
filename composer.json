@@ -1,0 +1,30 @@
+{
+  "name": "sachafarinel/sldskeletonmodule",
+  "description": "{DESCRIPTION.}",
+  "type": "prestashop-module",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Soledis",
+      "email": "prestashop@groupe-soledis.com",
+      "homepage": "https://www.groupe-soledis.com/",
+      "role": "Agency"
+    },
+    {
+      "name": "{lastname} {firstname}",
+      "email": "{firstname}.{lastname}@groupe-soledis.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Soledis\\SldSkeletonModule\\": "src/"
+    }
+  },
+  "config": {
+    "prepend-autoloader": false
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

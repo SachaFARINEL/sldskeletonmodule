@@ -20,7 +20,7 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
-class {SldSkeletonModule} extends \Module
+class SldSkeletonModule extends \Module
 {
     public const HOOK_TO_REGISTER = [];
 
