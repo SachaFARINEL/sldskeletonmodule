@@ -24,7 +24,5 @@
   },
   "config": {
     "prepend-autoloader": false
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }
 }
